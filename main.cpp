@@ -10,7 +10,7 @@ string removeDuplicates(string s) {
     for (int i=0; i<s.length(); i++) {
         duplicate[s[i]]++;
         if (!(duplicate[s[i]] > 1)) {
-            result.push_back(s[i]);                                               (s[i]);
+            result.push_back(s[i]);
         }
     }
     return result;
